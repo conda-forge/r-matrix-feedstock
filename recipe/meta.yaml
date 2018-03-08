@@ -1,4 +1,4 @@
-{% set version = "1.2-7.1" %}
+{% set version = "1.2-12" %}
 
 package:
   name: r-matrix
@@ -9,7 +9,7 @@ source:
   url:
     - http://cran.r-project.org/src/contrib/Matrix_{{ version }}.tar.gz
     - http://cran.r-project.org/src/contrib/Archive/Matrix/Matrix_{{ version }}.tar.gz
-  sha256: 4aeb66dabae3ddfa9e96a40eb48448ecf0413874937a1a2a05ffeaa46c282d27
+  sha256: 16e51aef69dca94dc4fcba8aa35a0039d9d0e6abd9cc017c095e954e1e2ca4f2
 
 build:
   number: 0
@@ -19,16 +19,16 @@ build:
     - lib/R/lib/
     - lib/
 
-requirements:  # [not win32]
-  build:  # [not win32]
-    - r-base  # [not win32]
+requirements:
+  build:
+    - r-base
     - posix  # [win64]
     - m2w64-toolchain  # [win64]
     - gcc  # [not win]
-    - r-lattice  # [not win32]
-  run:  # [not win32]
-    - r-base  # [not win32]
-    - r-lattice  # [not win32]
+    - r-lattice
+  run:
+    - r-base
+    - r-lattice
 
 test:
   commands:
@@ -45,3 +45,7 @@ about:
 extra:
   recipe-maintainers:
     - ocefpaf
+    - johanneskoester
+    - bgruening
+    - daler
+    - jdblischak

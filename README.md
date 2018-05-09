@@ -3,11 +3,11 @@ About r-matrix
 
 Home: http://Matrix.R-forge.R-project.org/
 
-Package license: GPL-2.0
+Package license: GPL (>= 2)
 
 Feedstock license: BSD 3-Clause
 
-Summary: Classes and methods for dense and sparse matrices and operations on them using 'LAPACK' and 'SuiteSparse'.
+Summary: A rich hierarchy of matrix classes, including triangular, symmetric, and diagonal matrices, both dense and sparse and with pattern, logical and numeric entries.   Numerous methods for and operations on these matrices, using 'LAPACK' and 'SuiteSparse' libraries.
 
 
 

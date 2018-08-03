@@ -14,14 +14,16 @@ Summary: A rich hierarchy of matrix classes, including triangular, symmetric, an
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-matrix-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-matrix-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-matrix-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-matrix-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-matrix-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-matrix-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-matrix-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-matrix-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-matrix-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-matrix-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-matrix-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-matrix-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-matrix/badges/version.svg)](https://anaconda.org/conda-forge/r-matrix)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-matrix/badges/downloads.svg)](https://anaconda.org/conda-forge/r-matrix)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--matrix-green.svg)](https://anaconda.org/conda-forge/r-matrix) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-matrix.svg)](https://anaconda.org/conda-forge/r-matrix) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-matrix.svg)](https://anaconda.org/conda-forge/r-matrix) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-matrix.svg)](https://anaconda.org/conda-forge/r-matrix) |
 
 Installing r-matrix
 ===================

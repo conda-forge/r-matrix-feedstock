@@ -14,7 +14,7 @@ source:
 
 build:
   merge_build_host: True  # [win]
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
@@ -31,10 +31,12 @@ requirements:
   host:
     - r-base
     - r-lattice
+    - libblas
   run:
     - r-base
     - {{native}}gcc-libs         # [win]
     - r-lattice
+    - libblas
 
 test:
   commands:

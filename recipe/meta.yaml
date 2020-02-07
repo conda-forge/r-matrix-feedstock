@@ -31,12 +31,12 @@ requirements:
   host:
     - r-base
     - r-lattice
-    - openblas
+    - libblas
   run:
     - r-base
     - {{native}}gcc-libs         # [win]
     - r-lattice
-    - openblas
+    - libblas
 
 test:
   commands:

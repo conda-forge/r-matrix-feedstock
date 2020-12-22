@@ -3,7 +3,7 @@ About r-matrix
 
 Home: http://Matrix.R-forge.R-project.org/
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-matrix-feedstock/blob/master/LICENSE.txt)
 

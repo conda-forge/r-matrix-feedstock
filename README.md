@@ -1,11 +1,22 @@
+About r-matrix-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-matrix-feedstock/blob/main/LICENSE.txt)
+
 About r-matrix
-==============
+--------------
 
 Home: http://Matrix.R-forge.R-project.org/
 
 Package license: GPL-2.0-or-later
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-matrix-feedstock/blob/main/LICENSE.txt)
+Summary: A rich hierarchy of matrix classes, including triangular, symmetric, and diagonal matrices, both dense and sparse and with pattern, logical and numeric entries.   Numerous methods for and operations on these matrices, using 'LAPACK' and 'SuiteSparse' libraries.
+About r-matrix
+--------------
+
+Home: http://Matrix.R-forge.R-project.org/
+
+Package license: GPL-2.0-or-later
 
 Summary: A rich hierarchy of matrix classes, including triangular, symmetric, and diagonal matrices, both dense and sparse and with pattern, logical and numeric entries.   Numerous methods for and operations on these matrices, using 'LAPACK' and 'SuiteSparse' libraries.
 

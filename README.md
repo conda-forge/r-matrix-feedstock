@@ -11,7 +11,7 @@ Home: http://Matrix.R-forge.R-project.org/
 
 Package license: GPL-2.0-or-later
 
-Summary: A rich hierarchy of sparse and dense matrix classes, including general, symmetric, triangular, and diagonal matrices with numeric, logical, or pattern entries.  Efficient methods for	operating on such matrices, often wrapping the 'BLAS', 'LAPACK', and 'SuiteSparse' libraries.
+Summary: A rich hierarchy of sparse and dense matrix classes, including general, symmetric, triangular, and diagonal matrices with numeric, logical, or pattern entries. Efficient methods for operating on such matrices, often wrapping the 'BLAS', 'LAPACK', and 'SuiteSparse' libraries.
 
 About r-matrix
 --------------
@@ -20,7 +20,7 @@ Home: http://Matrix.R-forge.R-project.org/
 
 Package license: GPL-2.0-or-later
 
-Summary: A rich hierarchy of sparse and dense matrix classes, including general, symmetric, triangular, and diagonal matrices with numeric, logical, or pattern entries.  Efficient methods for	operating on such matrices, often wrapping the 'BLAS', 'LAPACK', and 'SuiteSparse' libraries.
+Summary: A rich hierarchy of sparse and dense matrix classes, including general, symmetric, triangular, and diagonal matrices with numeric, logical, or pattern entries. Efficient methods for operating on such matrices, often wrapping the 'BLAS', 'LAPACK', and 'SuiteSparse' libraries.
 
 Current build status
 ====================

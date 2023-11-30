@@ -1,4 +1,4 @@
-{% set version = "1.6-3" %}
+{% set version = "1.6-4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/Matrix_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/Matrix/Matrix_{{ version }}.tar.gz
-  sha256: 91268498831f6240f14b1c35658eb9582cd1b139a2c2ee19897f1d591c4e9624
+  sha256: 70ca7bdaece68d4837da0523d067e1553947c3c81b0b55206223bb647617bb01
 
 build:
   merge_build_host: true  # [win]
@@ -48,10 +48,7 @@ test:
 about:
   home: http://Matrix.R-forge.R-project.org/
   license: GPL-2.0-or-later
-  summary: A rich hierarchy of sparse and dense matrix classes, including general, symmetric, 
-    triangular, and diagonal matrices with numeric, logical, or pattern entries. Efficient 
-    methods for operating on such matrices, often wrapping the 'BLAS', 'LAPACK', and 'SuiteSparse' 
-    libraries.
+  summary: A rich hierarchy of sparse and dense matrix classes, including general, symmetric, triangular, and diagonal matrices with numeric, logical, or pattern entries. Efficient methods for operating on such matrices, often wrapping the 'BLAS', 'LAPACK', and 'SuiteSparse' libraries.
   license_family: GPL3
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2

@@ -16,6 +16,10 @@ build:
   rpaths:
     - lib/R/lib/
     - lib/
+  missing_dso_whitelist:
+    - '*/R.dll'        # [win]
+    - '*/Rblas.dll'    # [win]
+    - '*/Rlapack.dll'  # [win]
 
 requirements:
   build:
@@ -31,18 +35,22 @@ requirements:
     - {{ posix }}coreutils       # [win]
     - {{ posix }}zip             # [win]
   host:
-    - r-base
+    - r-base >=4.4
     - r-lattice
     - libblas
     - liblapack
   run:
-    - r-base
+    - r-base >=4.4
     - r-lattice
 
 test:
+  source_files:
+    - tests/
   commands:
     - $R -e "library('Matrix')"           # [not win]
+    - Rscript tests/Simple.R              # [not win]
     - "\"%R%\" -e \"library('Matrix')\""  # [win]
+    - "Rscript tests/Simple.R"            # [win]
 
 about:
   home: http://Matrix.R-forge.R-project.org/

@@ -20,6 +20,7 @@ build:
     - '*/R.dll'        # [win]
     - '*/Rblas.dll'    # [win]
     - '*/Rlapack.dll'  # [win]
+  skip: true  # [r_base == "4.3"]
 
 requirements:
   build:
@@ -35,12 +36,12 @@ requirements:
     - {{ posix }}coreutils       # [win]
     - {{ posix }}zip             # [win]
   host:
-    - r-base >=4.4
+    - r-base
     - r-lattice
     - libblas
     - liblapack
   run:
-    - r-base >=4.4
+    - r-base
     - r-lattice
 
 test:

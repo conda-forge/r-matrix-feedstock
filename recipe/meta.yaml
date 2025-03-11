@@ -1,4 +1,4 @@
-{% set version = "1.7-2" %}
+{% set version = "1.7-3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/Matrix_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/Matrix/Matrix_{{ version }}.tar.gz
-  sha256: 7f019d9ae5d69b799c929cacc3b17e06b09fa65e2db9e007be4753751e96c650
+  sha256: 6642e9db8cddf32a051972fd5a634bf7edbdc925c5c2d139bf71e92df00fb44e
 
 build:
   number: 0

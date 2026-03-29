@@ -3,7 +3,7 @@
 
 package:
   name: r-matrix
-  version: {{ version|replace("-", "_") }}
+  version: "{{ version|replace("-", "_") }}"
 
 source:
   url:
